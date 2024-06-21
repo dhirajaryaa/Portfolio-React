@@ -1,15 +1,18 @@
-.container{
-    max-width: 1440px;
-    width: 100vw;
-    min-height: 100vh;
-    overflow-x: hidden;
+.container {
+  max-width: 1440px;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
-:root{
-    --highlight_color: #f75023;
+:root {
+  --orange-color: #f75023;
+  --green-color: #1cbe59;
+  --yellow-color: #f0c45c;
   --bg: #2b2d33;
   --bg-hover: #323335;
-  --font-color:#fff;
+  --font-color: #fff;
 }
-
-
-
+.container section{
+  height: calc(100vh - 70px);
+  background-color: red;
+}
