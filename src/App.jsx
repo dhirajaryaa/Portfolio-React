@@ -6,12 +6,13 @@ import About from './components/about/About';
 
 function App() {
   return (
-    <container>
+    <>
 
     <Header />
     <Hero />
     <About />
-    </container>
+ 
+    </>
   )
 }
 

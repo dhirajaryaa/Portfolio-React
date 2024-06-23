@@ -1,9 +1,4 @@
-.container {
-  max-width: 1440px;
-  width: 100vw;
-  min-height: 100vh;
-  overflow-x: hidden;
-}
+
 :root {
   --orange-color: #f75023;
   --green-color: #1cbe59;
@@ -12,7 +7,28 @@
   --bg-hover: #323335;
   --font-color: #fff;
 }
-.container section{
-  height: calc(100vh - 70px);
-  background-color: red;
+
+/* Webkit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Firefox */
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scrollbar-width: thin; /* Options: auto, thin, none */
+  scrollbar-color: #888 #f1f1f1; /* thumb color, track color */
 }
