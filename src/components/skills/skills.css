@@ -31,7 +31,7 @@
 }
 .skills .skills-box .myskills .img .progress-bar {
   position: absolute;
-  background-color:  rgba(var(--yellow-color), 0.5);
+  background-color:  rgba(54, 238, 100, 0.486);
   border: 6px solid var(--yellow-color);
   width: 90px;
   height: 90px;

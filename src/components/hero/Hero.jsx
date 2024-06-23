@@ -1,6 +1,7 @@
 import React from "react";
 import "./hero.css";
 import profile from "../../assets/myself.jpg";
+import {FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Hero() {
   return (
@@ -22,17 +23,17 @@ function Hero() {
               <span>About Me</span>
             </a>
             <div className="social_link">
-              <a href="#" className="social_link_btn">
-                FB
+              <a href="https://github.com/dhirajaryaa" className="social_link_btn" target="_blank">
+                < FaGithub />
               </a>
-              <a href="#" className="social_link_btn">
-                IN
+              <a href="https://instagram.com/dhirajaryaa0" className="social_link_btn" target="_blank">
+                < FaInstagram/>
               </a>
-              <a href="#" className="social_link_btn">
-                LI
+              <a href="https://linkedin.com/in/dhirajaryaa0" className="social_link_btn" target="_blank">
+                <FaLinkedin/>
               </a>
-              <a href="#" className="social_link_btn">
-                TW
+              <a href="https://twitter.com/dhirajaryaa" className="social_link_btn" target="_blank">
+                <FaTwitter />
               </a>
             </div>
           </div>
