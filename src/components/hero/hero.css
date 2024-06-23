@@ -1,10 +1,22 @@
 .hero {
   background: url("../../assets/hero_dark.jpg") center / cover no-repeat;
-  
+  width: 100vw;
+  height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center ;
+  overflow: hidden;
+  position: relative;
+}
+.hero .container{
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  height: 100%;
+  align-items: center;
   justify-content: space-evenly;
-  padding: 3rem 1rem;
+  padding: 3rem 2rem;
+
 }
 .hero .left-side {
   color: var(--font-color);
@@ -21,7 +33,7 @@
   font-size: 3.2rem;
   line-height: 4rem;
 }
-.hero .left-side .job {
+.hero .left-side .job, .about .content .job {
   color: var(--font-color);
   font-weight: 500;
   letter-spacing: 1px;
@@ -29,13 +41,13 @@
   margin: 1rem 0;
 }
 .green-text {
-  color: var(--green-color);
+  color: var(--green-color) !important;
 }
 .yellow-text {
-  color: var(--yellow-color);
+  color: var(--yellow-color) !important;
 }
 .orange-text {
-  color: var(--orange-color);
+  color: var(--orange-color) !important;
 }
 .hero .left-side .tagline {
   color: var(--font-color);
@@ -93,19 +105,18 @@
   height: 50px;
   border-radius: 3rem;
   border: 2px solid var(--font-color);
-  bottom: 3rem;
+  bottom: 2rem;
   left: 50%;
   transform: translateX(-50%);
-  display: flex;
-  justify-content: center;
+  
 }
 .hero .mouse_scroll .wheel {
   width: 3px;
+  margin: 0.5rem auto;
   height: 10px;
   border-radius: 1.3rem;
-  margin-top: 0.5rem;
   background-color: var(--orange-color);
-  animation: blink 3s infinite reverse;
+  animation: blink 1s infinite reverse;
 }
 
 .hero .right-side img {
@@ -115,7 +126,7 @@
 }
 
 @media (max-width: 850px) {
-  .hero {
+  .hero .container{
     flex-direction: column-reverse;
   }
   .hero .right-side img {
@@ -129,6 +140,13 @@
   }
   .hero .left-side .tagline {
     width: 100%;
+  }
+  .hero .action-box {
+    width: 100%;
+  margin: 2.6rem auto 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -146,6 +164,22 @@
     width: 25px;
     height: 40px;
     border-radius: 2rem;
+  }
+  .hero .left-side .hello {
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+  }
+  .hero .left-side .name {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .hero .left-side .job, .about .content .job {
+    font-size: 0.9rem;
+  }
+
+  .hero .left-side .tagline {
+    font-size: 0.9rem;
   }
 }
 

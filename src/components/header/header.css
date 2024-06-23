@@ -1,16 +1,25 @@
 .nav {
   background-color: var(--bg);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 10;
+}
+.nav .container {
   width: 100%;
+  max-width: 1440px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 2rem;
   color: var(--font-color);
-  position: relative;
-  height: 70px;
-  overflow: hidden;
-  z-index: 10;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  height: 100%;
 }
 .nav .logo a {
   color: inherit;
@@ -38,7 +47,7 @@
 .nav .navbar li:hover a {
   color: var(--orange-color);
 }
-.nav .navbar .action-btn {
+.download_cv {
   padding: 10px 1.3rem;
   border-radius: 3rem;
   border: 2px solid var(--orange-color);
@@ -50,11 +59,11 @@
   z-index: 2;
   overflow: hidden;
 }
-.nav .navbar .action-btn span {
+.download_cv span {
   color: inherit;
   font-weight: 500;
 }
-.nav .navbar .action-btn::before {
+.download_cv::before {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -65,7 +74,7 @@
   z-index: -1;
   transition: all 0.5s ease;
 }
-.nav .navbar .action-btn:hover::before {
+.download_cv:hover::before {
   height: 100%;
 }
 
@@ -114,9 +123,6 @@
     top: 70px;
     right: -17rem;
     z-index: 1;
-    /* backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); 
-    background-color: rgba(255, 255, 255, 0.3); */
     background-color: var(--bg-hover);
     width: 16rem;
     flex-direction: column;
@@ -133,7 +139,7 @@
     color: var(--font-color);
     margin: 1rem auto;
   }
-  .nav .navbar .action-btn {
+  .nav .navbar .download_cv {
     margin-left: 0;
   }
 }
