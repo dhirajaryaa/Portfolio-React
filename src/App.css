@@ -1,0 +1,15 @@
+.container{
+    max-width: 1440px;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+:root{
+    --highlight_color: #f75023;
+  --bg: #2b2d33;
+  --bg-hover: #323335;
+  --font-color:#fff;
+}
+
+
+
