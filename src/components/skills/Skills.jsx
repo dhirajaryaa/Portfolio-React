@@ -5,6 +5,7 @@ import css from "../../assets/css.png";
 import js from "../../assets/js.png";
 import react from "../../assets/react.png";
 import github from "../../assets/github.png";
+import {} from "react-icons"
 
 const Skills = () => {
   return (
