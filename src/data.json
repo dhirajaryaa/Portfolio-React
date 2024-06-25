@@ -1,0 +1,111 @@
+{
+  "navbar":[{
+    "home":"/",
+    "about":"#about",
+    "skills":"#skills",
+    "projects":"#projects",
+    "blog":"https://dev.to/dhirajaryaa",
+    "contact":"#contact",
+    "cv":"https://dhirajaryaa.vercel.app/"
+  }],
+    "personal_info": {
+      "name": "Dhiraj Arya",
+      "location": {
+        "city": "Patna",
+        "state": "Bihar",
+        "country": "India",
+        "pin_code": "804453"
+      },
+      "contact": {
+        "email": "your_email@example.com",
+        "phone": "your_phone_number"
+      },
+      "summary": "Aspiring full stack developer with a strong foundation in web development technologies and a goal to establish my own startup. Currently a 12th-grade student focused on mastering HTML, CSS, JavaScript, React, NodeJS, and other full stack development tools."
+    },
+    "education": [
+      {
+        "institution": "Bihar Board",
+        "degree": "PCM 12th Grade",
+        "year_of_completion": 2025,
+        "location": "Patna, Bihar, India"
+      }
+    ],
+    "skills": {
+      "programming_languages": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "frameworks_and_libraries": [
+        "React",
+        "NodeJS"
+      ],
+      "tools": [
+        "GitHub",
+        "VS Code",
+        "Postman",
+        "Git"
+      ]
+    },
+    "projects": [
+      {
+        "title": "Project 1",
+        "description": "Description of project 1",
+        "technologies_used": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "NodeJS"
+        ],
+        "link": "https://github.com/yourusername/project1"
+      },
+      {
+        "title": "Project 2",
+        "description": "Description of project 2",
+        "technologies_used": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "NodeJS"
+        ],
+        "link": "https://github.com/yourusername/project2"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Company Name",
+        "role": "Intern/Developer",
+        "duration": "Start Date - End Date",
+        "responsibilities": [
+          "Responsibility 1",
+          "Responsibility 2",
+          "Responsibility 3"
+        ]
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Certification Name",
+        "issuing_organization": "Issuing Organization",
+        "issue_date": "Issue Date"
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      },
+      {
+        "language": "Hindi",
+        "proficiency": "Native"
+      }
+    ],
+    "interests": [
+      "Web Development",
+      "Startup Entrepreneurship",
+      "Technology Trends"
+    ]
+  }
+  
