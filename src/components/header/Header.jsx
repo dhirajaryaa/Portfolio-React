@@ -24,8 +24,8 @@ const Header = () => {
               )
             })
           }            
-            <a href="#" className="download_cv">
-              <span>Download CV</span>
+            <a href="https://github.com/dhirajaryaa" className="download_cv" target='_blank'>
+              <span>Github</span>
             </a>
         </div>
         <div className={isMenuOpen ? "menu active":"menu"} onClick={handleMenu}>

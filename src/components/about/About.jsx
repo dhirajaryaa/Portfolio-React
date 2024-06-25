@@ -1,8 +1,9 @@
 import React from "react";
 import "./about.css";
-import profile from "../../assets/myself.jpg";
+import {about} from "../../constent.js";
 
 function About() {
+  const {info,cvLink} = about;
   return (
     <section className="about" id="about">
       <div className="section_container">
@@ -12,13 +13,13 @@ function About() {
           <div className="content">
             <h3 className="job green-text">I'm Developer</h3>
             <p>
-              Hello, <span className="yellow-text">Dhiraj Arya!</span> I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites. Working for myself to improve my skills. Love to build Full-Stack clones.
+            {info}
             </p>
             <div className="btn">
-            <a href="#" className="action-btn">
+            <a href="#contact" className="action-btn">
               Hire Me
             </a>
-            <a href="#" className="download_cv">
+            <a href={cvLink} className="download_cv">
               Download CV
             </a>
             </div>
