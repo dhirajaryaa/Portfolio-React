@@ -83,12 +83,19 @@
     width: 210px;
     height: 290px;
   }
+  .about .section_container .profile_pic{
+    filter: grayscale(0);
+    transform: perspective(800px) rotateY(20deg) translateY(-10px) rotateX(10deg);
+  }
   .about .section_container .content .job{
     font-size: 1.7rem;
   }
   .about .section_container .content .about {
     font-size: 0.9rem;
     background-color: transparent;
+  }
+  .about .section_container{
+    padding: 1rem 1.5rem;
   }
  .section_container_title{
     font-size: 3rem;

@@ -12,15 +12,7 @@ function About() {
           <div className="content">
             <h3 className="job green-text">I'm Developer</h3>
             <p>
-              Hello, <span className="yellow-text">Dhiraj Arya!</span> It's
-              great to hear about your passion for technology and software
-              development. Your proficiency in HTML, CSS, JavaScript, React, and
-              Node.js, along with your familiarity with tools like VS Code, Git,
-              GitHub, and Postman, positions you well for your full-stack
-              developer journey. Your commitment to continuous learning and
-              problem-solving will undoubtedly serve you well. Best of luck with
-              your aspirations, and may your startup endeavors lead to impactful
-              solutions! 😊
+              Hello, <span className="yellow-text">Dhiraj Arya!</span> I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites. Working for myself to improve my skills. Love to build Full-Stack clones.
             </p>
             <div className="btn">
             <a href="#" className="action-btn">
