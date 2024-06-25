@@ -50,7 +50,7 @@ export const skills = [
     {"name":"Firebase",
       "img":"https://www.svgrepo.com/show/373595/firebase.svg"
     },
-    {"name":"Express",
+    {"name":"Express JS",
       "img":"https://th.bing.com/th/id/OIP.1ji9NLQl3sOXktSoEYnt3wHaHa?rs=1&pid=ImgDetMain"
     },
     
@@ -58,20 +58,21 @@ export const skills = [
   {
   "title":"Tools",
   "skill":[
-    {"name":"Vs Code",
-      "img":"https://www.svgrepo.com/show/374171/vscode.svg"
-    },
     {"name":"Git",
       "img":"https://www.svgrepo.com/show/452210/git.svg"
     },
-    {"name":"Github",
-      "img":"https://www.svgrepo.com/show/512317/github-142.svg"
+    {"name":"Vs Code",
+      "img":"https://www.svgrepo.com/show/374171/vscode.svg"
     },
+    
     {"name":"Postman",
       "img":"https://www.svgrepo.com/show/354202/postman-icon.svg"
     },
     {"name":"ChatGPT",
       "img":"https://www.pngall.com/wp-content/uploads/15/ChatGPT-Logo-PNG-File.png"
+    },
+    {"name":"Github",
+      "img":"https://www.svgrepo.com/show/512317/github-142.svg"
     },
     {"name":"Notion",
       "img":"https://cdn.icon-icons.com/icons2/2429/PNG/512/notion_logo_icon_147257.png"
